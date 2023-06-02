@@ -15,7 +15,7 @@ with
 
 select
     order_id,
-    sum(unit_price * quantity)                  as total_faturado,
+    sum(unit_price * quantity)                  as receita,
     sum(unit_price * quantity * discount)       as desconto,
     sum(unit_price * quantity * discount)
     / sum(unit_price * quantity)                as porcent_desconto,

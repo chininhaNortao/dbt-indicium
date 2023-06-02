@@ -1,5 +1,5 @@
 -- order_id
--- total_faturado
+-- receita
 -- desconto
 -- porcent_desconto
 -- faturado

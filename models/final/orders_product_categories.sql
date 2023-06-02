@@ -7,10 +7,10 @@ product_categories as (
 )
 
 select
-    od.order_id,
-    pc.product_name,
-    pc.category_name,
-    od.total_faturado,
+    od.order_id as id_pedido,
+    pc.product_name as nome_produto,
+    pc.category_name as nome_categoria,
+    od.receita,
     od.desconto,
     od.faturado
 from
