@@ -3,7 +3,7 @@ with orders_details_info as (
 
     select 
         order_id,
-        total_faturado,
+        receita,
         desconto,
         porcent_desconto,
         faturado
@@ -23,7 +23,7 @@ select
     o.order_id as id_pedido,
     o.order_date as data_pedido,
     o.customer_id as id_cliente,
-    od.total_faturado,
+    od.receita,
     od.desconto,
     od.faturado
 from
